@@ -95,5 +95,3 @@ Welcome to the Olympics Simulator API! This API allows you to simulate Olympic e
 ## Conclusion
 
 The Olympics Simulator API provides a flexible way to simulate and interact with Olympic events, athletes, and countries. Make sure to initialize your data using the `Set event details` endpoint to start exploring the capabilities of this API!
-
-Enjoy using the API! 🥇
