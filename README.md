@@ -41,19 +41,19 @@ Welcome to the Olympics Simulator API! This API allows you to simulate Olympic e
 
 - **Get top gold countries**
     - **Endpoint:** `GET /countries/goldWinners`
-    - **Description:** Retrieves the top countries by the number of gold medals. Pass the `count` query parameter to limit the results.
+    - **Description:** Retrieves the top countries by the number of gold medals. Pass the `count` query parameter to limit the results (default:10).
 
 - **Get top silver countries**
     - **Endpoint:** `GET /countries/silverWinners`
-    - **Description:** Retrieves the top countries by the number of silver medals. Pass the `count` query parameter to limit the results.
+    - **Description:** Retrieves the top countries by the number of silver medals. Pass the `count` query parameter to limit the results (default:10).
 
 - **Get top bronze countries**
     - **Endpoint:** `GET /countries/bronzeWinners`
-    - **Description:** Retrieves the top countries by the number of bronze medals. Pass the `count` query parameter to limit the results.
+    - **Description:** Retrieves the top countries by the number of bronze medals. Pass the `count` query parameter to limit the results (default:10).
 
 - **Get top countries**
     - **Endpoint:** `GET /countries/topMedalWinners`
-    - **Description:** Retrieves the top countries considering all medal types. Pass the `count` query parameter to limit the results.
+    - **Description:** Retrieves the top countries considering all medal types. Pass the `count` query parameter to limit the result (default:10).
 
 ### Athlete Endpoints
 
@@ -63,7 +63,7 @@ Welcome to the Olympics Simulator API! This API allows you to simulate Olympic e
 
 - **Get top athletes**
     - **Endpoint:** `GET /athletes/toppers`
-    - **Description:** Retrieves the top athletes. Pass the `count` query parameter to limit the results. The `gender` query parameter is optional and can be used to filter results by gender.
+    - **Description:** Retrieves the top athletes. Pass the `count` query parameter to limit the results (default:10). The `gender` query parameter is optional and can be used to filter results by gender.
 
 ## Simulations
 
